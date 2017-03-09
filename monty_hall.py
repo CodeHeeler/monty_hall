@@ -6,7 +6,7 @@ def main():
     stay_wins = 0
     switch_wins = 0
     random_wins = 0
-    doors = [1, 2, 3]
+    stay_or_switch = 0
 
     num_games = int(input("How many games of each strategy? "))
     for i in range(num_games):
